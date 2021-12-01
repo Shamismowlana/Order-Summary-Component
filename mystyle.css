@@ -1,0 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ward {
+  background-color: white;
+  text-align: center;
+  margin: 6em auto;
+  border-radius: 1.5rem;
+  width: 400px;
+  height: 550px;
+}
+
+.ward img.hero {
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+    z-index: auto;
+}
+
+.feature {
+    font-size: 16px;
+    margin: 2px;
+    padding: 0 5% 5%;
+}
+
+
+.price {
+  text-align: initial;
+  position: relative;
+  width: 85%;
+  border-radius: 1rem;
+  line-height: 1.5;
+  transform: translate(20px,0px);
+}
+
+.price img {
+  float: left;
+  position: relative;
+  top: .25rem;
+}
+
+.price text {
+  text-align: left;
+  padding-left: 4rem;
+  padding-top: 2rem;
+
+}
+
+.change-button{
+  float: right;
+  position: relative;
+  bottom: 3.5rem;
+  text-decoration: underline;
+}
+
+.btn {
+  position: relative;
+  width: 95%;
+}
+
+button.btn{
+  display: block;
+}
+
+div.price{
+  background-color: #F5F7FF;
+}
+
+.btn .payment{
+  color: white;
+  background-color: #3829e0;
+  
+}
+
+.btn .payment:hover{
+  background: #4466BB;
+}
+
+.btn .cancel{
+  color: rgb(99, 80, 80);
+  background-color: #e0e8ff;
+}
+
+.btn .cancel:hover{
+  background: #F5F7FF;
+}
+
+.attribution{
+  text-align: center;
+}
+
+@media screen and (max-width: 375px){
+    .ward {
+      width: 300px;
+      height: 500px;
+    }
+    }
+
